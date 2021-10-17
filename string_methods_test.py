@@ -11,7 +11,7 @@ class LittleSistersEssayTest(unittest.TestCase):
     @pytest.mark.task(taskno=1)
     def test_capitalize_word(self):
         self.assertEqual(capitalize_title("canopy"), "Canopy")
-'''
+
     @pytest.mark.task(taskno=1)
     def test_capitalize_title(self):
         self.assertEqual(capitalize_title("fish are cold blooded"),
@@ -44,4 +44,3 @@ class LittleSistersEssayTest(unittest.TestCase):
     def test_replace_word_not_exist(self):
         self.assertEqual(replace_word_choice("Animals are cool.", "small", "tiny"),
                          "Animals are cool.")
-'''
